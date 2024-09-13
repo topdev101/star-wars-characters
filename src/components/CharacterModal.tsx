@@ -29,7 +29,7 @@ const CharacterModal: React.FC<CharacterModalProps> = ({ character, show, onHide
 
     return (
         <Modal open={show} onClose={onHide}>
-            <Box sx={{ padding: 4, backgroundColor: 'white', margin: 'auto', marginTop: 4 }}>
+            <Box sx={{ padding: 4, backgroundColor: 'white', margin: 'auto', marginTop: 4, width: '50%' }}>
                 <Typography variant="h4" gutterBottom>
                     {character.name}
                 </Typography>
